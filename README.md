@@ -6,7 +6,6 @@
     - [Examples](#examples)
   - [Flowchart](#flowchart)
   - [Comparison Table](#comparison-table)
-  - [Questionnaire](#questionnaire)
 
 ---
 
@@ -168,11 +167,3 @@ This is a simple comparison table which combines the points discussed above.
 | Fake        | <ul><li>provides working, simplified implementations of real dependencies</li></ul>                                                                       | <ul><li> can simplify testing by replacing complex real-world implementations with simpler, more predictable ones</li></ul>                                  | <ul><li>behaviour of a fake is simpler and less realistic than the real-world system it's standing in for, so tests using fakes can miss problems that would occur in the real system</li></ul>                                     |
 | Spy         | <ul><li>can monitor specific method calls and their parameters, while also offering pre-set responses (just like stubs)</li></ul>                         | <ul><li> can give you detailed insight into how a system is behaving by recording its interactions with dependencies</li></ul>                                      | <ul><li>can lead to brittle tests if used improperly, as they make tests dependent on the specific implementation details of the system under test</li></ul>                                                                        |
 | Mock        | <ul><li>can validate system interactions with dependencies by being pre-programmed with expectations, and raise exceptions for unexpected calls</li></ul> | <ul><li> can be a powerful tool when used correctly, as they can stand in for dependencies and verify that the system under test is behaving correctly</li></ul> | <ul><li>their overuse can make tests brittle, harder to understand and maintain</li><li>improper setup can cause them to overlook issues, resulting in bugs that only surface during integration testing or in production</li></ul> |
-
-
-## Questionnaire
-<div id='id-questionnaire'/>
-
-Have you read this far? :eyes: 
-
-If you have, please help me out by filling out this [questionnaire](https://forms.gle/xNg3GX5PBA7GzeMx8)! It should take you no more than 5-10mins, I swear :pray:
